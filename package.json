@@ -1,0 +1,43 @@
+{
+  "name": "@thejohnfreeman/await-observable",
+  "version": "1.0.0",
+  "description": "Asynchronous functions for observables.",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "lint": "tsc --noEmit && tslint --project tsconfig.json 'src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "observable",
+    "observables",
+    "reactivex",
+    "rx",
+    "rxjs"
+  ],
+  "repository": "https://github.com/thejohnfreeman/await-observable",
+  "bugs": {
+    "url": "https://github.com/thejohnfreeman/await-observable/issues"
+  },
+  "homepage": "https://github.com/thejohnfreeman/await-observable#readme",
+  "author": "John Freeman <jfreeman08@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "jest": "^24.0.0",
+    "prettier": "^1.16.2",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}

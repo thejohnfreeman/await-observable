@@ -124,7 +124,7 @@ export function spawn<T>(
 // easier to build a `flow` alternative for observables in MobX.
 // https://medium.com/@thejohnfreeman/escaping-pipeline-hell-38d962f66d31
 export class IteratorSubscriber<T> extends Subscriber<T> {
-  private subscription: Subscription | null
+  private subscription: Subscription | null = null
 
   public constructor(
     observer: Observer<T>,

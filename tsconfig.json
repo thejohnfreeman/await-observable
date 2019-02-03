@@ -6,7 +6,9 @@
     // Let us use path aliases.
     "baseUrl": "./",
     // https://medium.com/cameron-nokes/the-30-second-guide-to-publishing-a-typescript-package-to-npm-89d93ff7bccd
+    // https://hackernoon.com/building-and-publishing-a-module-with-typescript-and-rollup-js-faa778c85396
     "declaration": true,
+    "declarationDir": "dist",
     // Let us use yield*.
     "downlevelIteration": true,
     // Required for ts-jest.
@@ -17,24 +19,20 @@
     // Compile JSX too.
     "jsx": "react",
     // Declare global variables from ES2017 and the DOM.
-    "lib": ["es6","dom"],
-    // Generate a CommonJS module for Webpack.
-    "module": "esnext",
+    "lib": ["es2017", "dom"],
     // Resolve dependencies like Node.js.
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
     "removeComments": true,
     // Attach inline source maps.
     "sourceMap": true,
     // Suppress noImplicitAny errors when indexing.
     "suppressImplicitAnyIndexErrors": true,
     // Enable a group of strictness checks.
-    // "strict": true,
-    "strictNullChecks": true,
-    // Generate ES6, the first version with generator functions.
-    "target": "es6"
+    "strict": true,
+    // Generate ES5.
+    "target": "es5"
   },
   "exclude": [
     "node_modules"

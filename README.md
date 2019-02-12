@@ -3,6 +3,7 @@
 Asynchronous functions for observables.
 
 [![npm](https://img.shields.io/npm/v/@thejohnfreeman/await-observable.svg)](https://www.npmjs.com/package/@thejohnfreeman/await-observable)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@thejohnfreeman/await-observable.svg?style=flat)](https://bundlephobia.com/result?p=@thejohnfreeman/await-observable)
 [![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 [![build status](https://travis-ci.org/thejohnfreeman/await-observable.svg?branch=master)](https://travis-ci.org/thejohnfreeman/await-observable)
 
